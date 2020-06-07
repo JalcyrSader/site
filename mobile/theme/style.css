@@ -1,0 +1,1423 @@
+@-zs-include webfonts(Arvo:400,700);
+body, h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+}
+body {
+ background-color:#549300;
+ background-image:url(images/bgimage.png);
+ background-repeat:repeat;
+ background-position:left top;
+ background-attachment:fixed;
+ background-size:auto;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+    -webkit-text-size-adjust: none;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+a {
+ text-decoration:none;
+color:#72a837;
+}
+a:hover {
+text-decoration:none;
+color:#72a837;
+}
+p {
+    line-height: 1.8;
+}
+ul, ol {
+    padding: 0 0 0 20px;
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+    padding: 0 0 0 23px;
+}
+li {
+    padding: 0 0 10px;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+hr {
+    border-top:1px solid #D8DCE2;
+}
+/*---------------------------------- HEADER AREA -----------------------------------------*/
+.headerContainer {
+    padding: 20px 0 25px;
+    text-align: center;
+    background:#f1f7f4;
+    box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -o-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    margin:0 9px 25px;
+}
+.logoarea {
+    padding-bottom: 25px;
+    background:url("images/logoShadow.png") no-repeat scroll center bottom;
+}
+.headerContainer h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+    padding-bottom: 5px;
+}
+.headerContainer h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#adadad;
+}
+/*---------------------------------- MENU AREA -----------------------------------------*/
+.menuarea {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+#navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 95%;
+    background-color:#ffffff;
+ background-image:none;
+ background-repeat:repeat-x;
+ background-position:left top;
+    height:50px;
+    box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -o-box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.30);
+}
+#navigation li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height:50px;
+    cursor: pointer;
+    width: 33%;
+}
+#navigation li a {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ color:#585858;
+ font-size:14px;
+    text-decoration: none;
+    float: left;
+    display: block;
+    width: 100%;
+    height:50px;
+}
+#navigation li.selected {
+ background-color:transparent;
+ background-image:none;
+ background-repeat:repeat-x;
+ background-position:left top;
+}
+#navigation li.selected a span {
+ color:#436e00;
+}
+#navigation li a span {
+    word-wrap: break-word;
+    height:50px;
+    display: block;
+    line-height: 50px;
+    overflow: hidden;
+    text-align:center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#navigation li a em {
+    display: block;
+    float: right;
+    height: 7px;
+    width: 11px;
+    margin: -25px 10px 0 10px;
+}
+#navigation li.navArrow a em{
+    background:url(images/navArrow.png) no-repeat 0 0;
+}
+#navigation li.selected.navArrow a em {
+    background: url(images/navArrowHover.png) no-repeat 0 0;
+}
+/*---------------------------------- SUBMENU AREA -----------------------------------------*/
+.submenu {
+    min-height: 10px;
+    height: auto !important;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.submenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:#f5f5f5;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+    -moz-box-shadow:-3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    -webkit-box-shadow:-3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    -o-box-shadow:-3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    box-shadow:-3px 3px 0 0 rgba(54, 91, 30, 0.50);
+ border-width:0px;
+border-style:solid;
+border-color:transparent;
+border-radius:0px;
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+-o-border-radius:0px;
+}
+.submenu li {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.submenu li a {
+ color:#585858;
+ font-size:14px;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    line-height: 3;
+    float: left;
+    cursor: pointer;
+}
+.submenu li.selected {
+ background-color:#ffffff;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+}
+.submenu li.selected a span {
+ color:#436e00;
+}
+.submenu li a span {
+    float: left;
+    padding-left: 15px;
+    word-wrap: break-word;
+    width: 85%
+}
+.submenu li a em {
+    width: 5px;
+    float: right;
+    height: 9px;
+}
+.submenu li.navArrow a em {
+    background: url(images/subNavArrow.png) left top no-repeat;
+    float: right;
+    height:8px;
+    width: 10px;
+    margin: 18px 5px 0 13px;
+}
+.submenu li.selected.navArrow a em {
+    background: url(images/subNavArrowHover.png) left top no-repeat;
+}
+/*---------------------------------- CONTENT AREA -----------------------------------------*/
+.container {
+    background-color:transparent;
+ background-image:url(images/contentbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -moz-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -webkit-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -o-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    margin: 0 9px;
+    padding:20px;
+    margin-bottom:25px;
+}
+/*---------------------------------- BANNER AREA CSS -----------------------------------------*/
+.bannerImage {
+    margin-bottom: 10px;
+}
+/*---------------------------------- BREADCRUMB AREA CSS -----------------------------------------*/
+.breadcrumb {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 15px;
+}
+.breadcrumb a {
+    text-decoration: none;
+}
+.breadcrumb span {
+    padding: 0 10px;
+}
+.breadcrumb p {
+    word-wrap: break-word
+}
+.contentArea {
+    min-height: 250px;
+    height: auto !important;
+    height: 250px;
+}
+/*---------------------------------- SIDEBAR AREA -----------------------------------------*/
+.sidebararea {
+    background-color:transparent;
+ background-image:url(images/sidebarbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -moz-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -webkit-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -o-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:12px;
+ color:#fff6e5;
+    margin:15px;
+    min-height: 100px;
+    height: auto !important;
+    height: 100px;
+    padding: 10px;
+}
+.sidebararea h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#ffa200;
+}
+.sidebararea h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#ffa200;
+}
+.sidebararea h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#ffa200;
+}
+.sidebararea h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#ffa200;
+}
+.sidebararea h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#ffa200;
+}
+.sidebararea h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#a2e507;
+}
+.sidebararea a {
+ text-decoration:none;
+ color:#85bf00;
+}
+.sidebararea a:hover {
+ text-decoration:none;
+ color:#85bf00;
+}
+.sidebararea form li span input[type=text], .sidebararea form li span textarea, .sidebararea form li span select {
+ background:#264605;
+ background:rgba(0,0,0,0.35);
+ border:0;
+}
+.sidebararea form li input[type=submit], .sidebararea form li input[type=reset] {
+box-shadow:none;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+-o-box-shadow:none;
+}
+.sidebararea th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.sidebararea td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.sidebararea h3.newsletter-heading {
+    color:#ffa200;
+}
+.sidebararea .newsletter-desc {
+    color:#FFF6E5;
+}
+.sidebararea .newsletter-input-field {
+    background: #264605;
+    background: rgba(0,0,0,0.35);
+    color:#fff6e5;
+}
+.sidebararea .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#fff6e5;
+}
+.sidebararea .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#fff6e5;
+}
+.sidebararea .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#fff6e5;
+}
+/* ------------------------------------------------------------- THEME SIDEBAR AREA HIGHLIGHT BOX CSS -----------------------------------------------------------------------------*/
+.sidebararea .zs-highlight-box {
+ background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:12px;
+ color:#505943;
+}
+.sidebararea .zs-highlight-box h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#436e00;
+}
+.sidebararea .zs-highlight-box a {
+ text-decoration:none;
+ color:#72a837;
+}
+.sidebararea .zs-highlight-box a:hover {
+ text-decoration:none;
+ color:#72a837;
+}
+.sidebararea .zs-highlight-box form li span input[type=text], .sidebararea .zs-highlight-box form li span textarea, .sidebararea .zs-highlight-box form li span select {
+    background:#B8D19D;
+    color:#505943;
+}
+.sidebararea .zs-highlight-box .newsletter-input-field {
+    background: #B8D19D;
+    color:#505943;
+    border:0px;
+}
+.sidebararea .zs-highlight-box .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+}
+.sidebararea .zs-highlight-box .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+}
+.sidebararea .zs-highlight-box .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+}
+.sidebararea .zs-highlight-box form li input[type=submit], .sidebararea .zs-highlight-box form li input[type=reset] {
+    padding:7px 15px;
+    margin-right:5px;
+}
+.sidebararea .zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.sidebararea .zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+/*--------------------- THEME SIDEBAR TABS ACCORDION AREA CSS ---------------------*/
+.sidebararea .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    margin: 0;
+    display:none;
+}
+.sidebararea .zs-tabs li {
+    padding: 0;
+    margin: 0 3px;
+    float: left;
+}
+.sidebararea .zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color:#505943;
+    line-height:3;
+    border: 1px solid #C6D2BA;
+    border-bottom: 0px;
+}
+.sidebararea .zs-tabs ul li:first-child {
+    margin-left: 0px;
+}
+.sidebararea .zs-tabs ul li.selected div {
+    background: #ffffff;
+    padding-bottom: 1px;    
+    color: #436e00;
+    border-color:#D8D8D8;
+}
+.sidebararea .zs-tabs-accordion-content, .sidebararea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 15px;
+    clear: both;
+    color:#505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.sidebararea .zs-accordion, .sidebararea .zs-highlight-box .zs-accordion {
+    color:#505943;
+    padding: 10px;
+    cursor: pointer;
+    display:block;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.sidebararea .zs-accordion.selected, .sidebararea .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color:#D8D8D8;
+}
+/*---------------------------------- THEME SIDEBAR AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content h1, .sidebararea .zs-highlight-box .zs-tabs-accordion-content h2, .sidebararea .zs-highlight-box .zs-tabs-accordion-content h3, .sidebararea .zs-highlight-box .zs-tabs-accordion-content h4, .sidebararea .zs-highlight-box .zs-tabs-accordion-content h5, .sidebararea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content a, .sidebararea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.sidebararea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .sidebararea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .sidebararea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+}
+.sidebararea .zs-tabs-accordion-content .newsletter-input-field {
+    background:#f0f0f0;
+    color:#505943;
+}
+.sidebararea .zs-tabs-accordion-content .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+}
+.sidebararea .zs-tabs-accordion-content .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+}
+.sidebararea .zs-tabs-accordion-content .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+}
+/*---------------------------------- FOOTER AREA -----------------------------------------*/
+.footerArea {
+    background-color:transparent;
+ background-image:url(images/contentbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0 0px transparent, 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 0px 0px 0 0px transparent, 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 0px 0px 0 0px transparent, 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 0px 0px 0 0px transparent, 0px 0px 0px 0 transparent inset;
+ border-width:0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    padding:25px;
+    min-height: 50px;
+    height: auto !important;
+    height: 50px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+}
+.footerArea h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#436e00;
+}
+.footerArea h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#436e00;
+}
+.footerArea h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+}
+.footerArea h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#436e00;
+}
+.footerArea h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#436e00;
+}
+.footerArea h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#436e00;
+}
+.footerArea a {
+ color:#72a837;
+ text-decoration:none;
+}
+.footerArea a:hover {
+ text-decoration:none;
+ color:#72a837;
+}
+.footerArea th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.footerArea td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.footerArea .zs-highlight-box {
+ background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+}
+.footerArea .zs-highlight-box h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+.footerArea .zs-highlight-box a {
+ text-decoration:none;
+color:#72a837;
+}
+.footerArea .zs-highlight-box a:hover {
+text-decoration:none;
+color:#72a837;
+}
+.footerArea .zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.footerArea .zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+/*-----------------------------------  TEXT HIGHLIGHT CSS -----------------------------------------------*/
+.footerArea .zs-text-light-color {
+color:#9F9F9F
+}
+.footerArea .zs-text-highlight-color {
+color:#436E00
+}
+.footerArea .zs-highlight-box .zs-text-light-color {
+color:#9F9F9F
+}
+.footerArea .zs-highlight-box .zs-text-highlight-color {
+color:#436E00
+}
+/*--------------------- THEME FOOTER TABS ACCORDION AREA CSS ---------------------*/
+.footerArea .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    display:none;
+    margin: 0;
+}
+.footerArea .zs-tabs li {
+    padding: 0;
+    margin: 0 3px;
+    float: left;
+}
+.footerArea .zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color:#505943;
+    line-height:3;
+    border: 1px solid #C6D2BA;
+    border-bottom: 0px;
+}
+.footerArea .zs-tabs ul li.selected div {
+    background: #ffffff;
+    padding-bottom: 1px;    
+    color: #436e00;
+    border-color:#D8D8D8;
+}
+.footerArea .zs-tabs-accordion-content, .footerArea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 15px;
+    clear: both;
+    color:#505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.footerArea .zs-accordion, .footerArea .zs-highlight-box .zs-accordion {
+    color:#505943;
+    padding: 10px;
+    cursor: pointer;
+    display:block;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.footerArea .zs-accordion.selected, .footerArea .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color:#D8D8D8;
+}
+/*---------------------------------- THEME FOOTER AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.footerArea .zs-highlight-box .zs-tabs-accordion-content h1, .footerArea .zs-highlight-box .zs-tabs-accordion-content h2, .footerArea .zs-highlight-box .zs-tabs-accordion-content h3, .footerArea .zs-highlight-box .zs-tabs-accordion-content h4, .footerArea .zs-highlight-box .zs-tabs-accordion-content h5, .footerArea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.footerArea .zs-highlight-box .zs-tabs-accordion-content a, .footerArea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.footerArea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.footerArea .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.footerArea .zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.footerArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .footerArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .footerArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+}
+/*---------------------------------- FORM AREA CSS -----------------------------------------*/
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+}
+form li {
+    overflow: hidden;
+    padding:5px 0;
+    margin: 0;
+}
+form ul li label, form ul li div {
+    width: auto;
+    float: none;
+    padding:5px 0;
+}
+form ul li label {
+    width: 200px;
+    text-align: left;
+}
+form li div span {
+    clear: both;
+    display:block;
+}
+form li span input, form li span label {
+    float: none;
+    width: auto;
+    padding:0px 5px 0;
+    margin-top:7px;
+}
+form li span input[type=text], form li span textarea, form li span select {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#585858;
+    background:#ffffff;
+    border:1px solid #ceddba;
+    width: 200px;
+    float: left;
+    padding:8px 3px;
+    resize: none;
+    margin:0px;
+    outline: none;
+}
+form li span select {
+    width: 207px;
+}
+form li span textarea {
+    height: 80px;
+    overflow: auto;
+}
+form .dateinvoker {
+    background: url(images/datePickerIcn.png) 0 0 no-repeat;
+    width:17px;
+    height:18px;
+    border: none;
+    vertical-align: middle;
+    margin-top:8px;
+    margin-left:5px;
+    padding:0px;
+    outline: none;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    -o-box-shadow:none;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -o-border-radius:0px;
+}
+form li input[type=submit], form li input[type=reset], button {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    background:#55960c;
+    background:-webkit-gradient(linear, left top, left bottom, from(#71c70b), to(#55960c));
+    background:-moz-linear-gradient(top,  #71c70b,  #55960c); 
+    background:-o-linear-gradient(top,  #71c70b,  #55960c);
+    box-shadow:0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -webkit-box-shadow:0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -moz-box-shadow:0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -o-box-shadow:0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    border:1px solid #5aac01;
+    padding:10px 30px;
+    margin-right:10px;
+    color:#ffffff;
+    cursor:pointer;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    font-size:16px;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+    -webkit-text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+    -moz-text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+    -o-text-shadow:0 -1px 0 rgba(0, 0, 0, 0.17);
+}
+form li input[type=reset] {
+    background:#d6d6d6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#d6d6d6));
+    background: -moz-linear-gradient(top,  #f0f0f0,  #d6d6d6); 
+    background: -o-linear-gradient(top,  #f0f0f0,  #d6d6d6);
+    border:1px solid #c2c2c2;
+    color:#505050;
+}
+/*-----------------------------------      THEME HIGHLIGHT BOX AREA CSS    -----------------------------------------------*/
+.zs-highlight-box {
+  background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:16px;
+ color:#505943;
+}
+.zs-highlight-box h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+.zs-highlight-box h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+.zs-highlight-box h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+.zs-highlight-box h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+.zs-highlight-box h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+.zs-highlight-box h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+.zs-highlight-box a {
+ text-decoration:none;
+color:#72a837;
+}
+.zs-highlight-box a:hover {
+text-decoration:none;
+color:#72a837;
+}
+.zs-highlight-box hr {
+    border-top-color:#B9CBB3;
+}
+.zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+ box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+ -o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.zs-highlight-box h3.newsletter-heading {
+    color:#436E00;
+}
+.zs-highlight-box .newsletter-desc {
+    color:#505943;
+}
+/*-----------------------------------  TEXT HIGHLIGHT CSS -----------------------------------------------*/
+.zs-text-light-color {
+color:#9F9F9F
+}
+.zs-text-highlight-color {
+color:#436E00
+}
+.zs-highlight-box .zs-text-light-color {
+color:#9F9F9F
+}
+.zs-highlight-box .zs-text-highlight-color {
+color:#436E00
+}
+/*------------------------ THEME TABS ACCORDION AREA CSS START ------------------------------*/
+.zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    display:none;
+    margin: 0;
+}
+.zs-tabs li {
+    padding: 0;
+    margin: 0 3px;
+    float: left;
+}
+.zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color:#505943;
+    line-height:3;
+    border: 1px solid #C6D2BA;
+    border-bottom: 0px;
+}
+.zs-tabs ul li:first-child {
+    margin-left: 0px;
+}
+.zs-tabs ul li.selected div {
+    background: #ffffff;
+    padding-bottom: 1px;    
+    color: #436e00;
+    border-color:#D8D8D8;
+}
+.zs-tabs-accordion-content, .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 15px;
+    clear: both;
+    color:#505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.zs-accordion, .zs-highlight-box .zs-accordion {
+    color:#505943;
+    padding: 10px;
+    cursor: pointer;
+    display:block;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.zs-accordion.selected, .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color:#D8D8D8;
+}
+/*---------------------------------- THEME HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.zs-highlight-box .zs-tabs-accordion-content h1, .zs-highlight-box .zs-tabs-accordion-content h2, .zs-highlight-box .zs-tabs-accordion-content h3, .zs-highlight-box .zs-tabs-accordion-content h4, .zs-highlight-box .zs-tabs-accordion-content h5, .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.zs-highlight-box .zs-tabs-accordion-content a, .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+}
+/***************************** START SOCIAL ICONS SPRITE *****************************/
+.themeSocialIconContainer {
+margin: 10px 0;
+text-align: center;
+}
+.zs-socialicon-email,.zs-socialicon-facebook,.zs-socialicon-flickr,.zs-socialicon-googleplus,.zs-socialicon-linkedin,.zs-socialicon-pinterest,.zs-socialicon-rss,.zs-socialicon-twitter,.zs-socialicon-youtube,.zs-socialicon-medium,.zs-socialicon-instagram {
+    background:url('images/zs-socialicon-sprite.png') no-repeat top left; width:30px; height:30px; display: inline-block;
+margin:3px 3px 0;
+}
+.zs-socialicon-email {
+    background-position:0 -0px;
+}
+.zs-socialicon-facebook {
+    background-position:0 -30px;
+}
+.zs-socialicon-flickr {
+    background-position:0 -60px;
+}
+.zs-socialicon-googleplus {
+    background-position:0 -90px;
+}
+.zs-socialicon-linkedin {
+    background-position:0 -120px;
+}
+.zs-socialicon-pinterest {
+    background-position:0 -150px;
+}
+.zs-socialicon-rss {
+    background-position:0 -180px;
+}
+.zs-socialicon-twitter {
+    background-position:0 -210px;
+}
+.zs-socialicon-youtube {
+    background-position:0 -240px;
+}
+.zs-socialicon-medium {
+    background-position:0 -270px;
+}
+.zs-socialicon-instagram {
+    background-position:0 -300px;
+}
+/*****************************   END: SOCIAL ICONS SPRITE *****************************/
+.newsletter-container {
+background: transparent;
+    padding: 10px
+}
+h3.newsletter-heading {
+    margin-bottom: 10px;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 24px;
+color: #436E00;
+}
+.newsletter-desc {
+    margin-bottom: 25px;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+color: #505943;
+}
+.newsletter-input-field {
+background: #ffffff;
+border-width: 1px;
+border-color: #CEDDBA;
+color:#505943;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align:top;
+}
+button.newsletter-button {
+background: #71C70B;
+border-width: 1px;
+border-color: #5AAC01;
+color:#ffffff;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+border-radius:0px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+-o-border-radius:0px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 9px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+.newsletter-layout-1 .newsletter-form, .newsletter-layout-2 .newsletter-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter-layout-3 .newsletter-form {
+    width: 200px;
+    margin: 0 auto;
+    text-align: right;
+}
+.newsletter-layout-3 button {
+    text-align: right;
+}
+.newsletter-layout-2 button.newsletter-button {
+    display:block;
+    margin:0 auto;
+}
+.newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+  font-size:90%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+  font-size:85%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+  font-size:90%;
+  line-height:normal;
+}
+/*----------------------------------- MEMBERSHIP PORTAL AREA CSS  -----------------------------------------------*/
+.mp-container {
+    height: 35px;
+    background:rgba(0, 0, 0, 0.25);
+    border-bottom:1px solid rgba(255, 255, 255, 0.25);
+}
+.member-signin {
+    padding:0 10px;
+}
+.member-signin > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+}
+.member-signin li {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 20px;
+    padding: 0;
+    position:relative;
+}
+.member-signin li:first-child {
+    width:75%;
+}
+.member-signin li a {
+    font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+    text-decoration:none;
+    color:#FFA200;
+    display:block;
+    text-align:right;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.member-signin li a:hover {
+    text-decoration:none;
+    color:#FFA200;
+}
+.member-signin li:first-child {
+    margin-left: 0;
+}
+.member-signin li:last-child:before {
+    color:#FFA200;
+    content: "|";
+    position: absolute;
+    top: 0;
+    left:-13px;
+}
+ 

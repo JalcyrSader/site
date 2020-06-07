@@ -1,0 +1,1616 @@
+/*----------- WEB FONT CSS -----------*/
+@-zs-include webfonts(Arvo:400, 700);
+/*----------- PRESET CSS -----------*/
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+body {
+ background-color:#549300;
+ background-image:url(images/bgimage.png);
+ background-repeat:repeat;
+ background-position:center top;
+ background-attachment:fixed;
+ background-size:cover;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+    overflow: auto;
+}
+h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+a {
+ text-decoration:none;
+color:#72a837;
+}
+a:hover {
+text-decoration:none;
+color:#72a837;
+}
+a img {
+    border: 0 solid;
+}
+:focus {
+    outline: 0;
+}
+p {
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+ol {
+    margin: 0;
+    padding: 0 0 0 23px;
+}
+li {
+    padding: 10px 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+hr {
+    border-top: 1px solid #D8DCE2;
+}
+/*----------- COMMON USAGE CSS -----------*/
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clearDiv {
+    clear: both;
+}
+.themeWidth {
+    width: 980px;
+    margin: 0 auto;
+}
+/*----------- LEFT AREA CSS -----------*/
+.themeSearcAndSocialIconContainer {
+    padding: 25px 0 15px;
+    overflow: hidden;
+}
+.themeLeftArea {
+    width: 235px;
+}
+/*----------- BRANDING AREA CSS -----------*/
+.themeBrandingArea {
+    padding: 0 20px;
+    background: #f1f7f4;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -o-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 45px;
+    text-align: center;
+}
+.themeLogoArea {
+    padding-top: 20px;
+}
+.themeLogoShadow {
+    background: url(images/logoShadow.png) top center no-repeat;
+    height: 30px;
+}
+.themeSitename {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+    padding: 10px 0;
+    word-wrap: break-word;
+    display: block;
+}
+.themeCaption {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#adadad;
+    word-wrap: break-word;
+    padding-bottom: 15px;
+    display: block;
+}
+/* ------------------------------------------------------------- THEME SIDEBAR AREA CSS -----------------------------------------------------------------------------*/
+.themeSidebarArea {
+ background-color:transparent;
+ background-image:url(images/sidebarbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -webkit-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -moz-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ -o-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.50), 0px 0px 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    padding: 20px;
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:13px;
+ color:#fff6e5;
+}
+.themeSidebarArea h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#ffa200;
+}
+.themeSidebarArea h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#ffa200;
+}
+.themeSidebarArea h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#ffa200;
+}
+.themeSidebarArea h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#ffa200;
+}
+.themeSidebarArea h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#ffa200;
+}
+.themeSidebarArea h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#ffa200;
+}
+.themeSidebarArea a {
+ text-decoration:none;
+ color:#85bf00;
+}
+.themeSidebarArea a:hover {
+ text-decoration:none;
+ color:#85bf00;
+}
+.themeSidebarArea form li span input[type=text], .themeSidebarArea form li span textarea, .themeSidebarArea form li span select {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:12px;
+ color:#fff6e5;
+    background: #264605;
+    background: rgba(0,0,0,0.35);
+    width: 140px;
+    padding: 8px 3px;
+    border: 0px;
+}
+.themeSidebarArea form li input[type=submit], .themeSidebarArea form li input[type=reset] {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    padding:7px 10px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+.themeSidebarArea form li span select {
+    width: 153px;
+}
+.themeSidebarArea th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.themeSidebarArea td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.themeSidebarArea .newsletter-input-field {
+    width:170px;
+    background: #264605;
+    background: rgba(0,0,0,0.35);
+    color:#fff6e5;
+    border:0px;
+}
+.themeSidebarArea .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#fff6e5;
+}
+.themeSidebarArea .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#fff6e5;
+}
+.themeSidebarArea .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#fff6e5;
+}
+.themeSidebarArea .newsletter-layout-3 .newsletter-form {
+    width: 170px;
+}
+.themeSidebarArea h3.newsletter-heading {
+    color:#ffa200;
+}
+.themeSidebarArea .newsletter-desc {
+    color:#fff6e5;
+}
+/* ------------------------------------------------------------- THEME SIDEBAR AREA HIGHLIGHT BOX CSS -----------------------------------------------------------------------------*/
+.themeSidebarArea .zs-highlight-box {
+ background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:12px;
+ color:#505943;
+}
+.themeSidebarArea .zs-highlight-box h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#436e00;
+}
+.themeSidebarArea .zs-highlight-box a {
+ text-decoration:none;
+ color:#72a837;
+}
+.themeSidebarArea .zs-highlight-box a:hover {
+ text-decoration:none;
+ color:#72a837;
+}
+.themeSidebarArea .zs-highlight-box form li span input[type=text], .themeSidebarArea .zs-highlight-box form li span textarea, .themeSidebarArea .zs-highlight-box form li span select {
+    width: 120px;
+    background: #B8D19D;
+ color:#505943;
+}
+.themeSidebarArea .zs-highlight-box form li span select {
+    width: 133px;
+}
+.themeSidebarArea .zs-highlight-box .newsletter-input-field {
+    background: #B8D19D;
+    color:#505943;
+    width:140px;
+}
+.themeSidebarArea .zs-highlight-box .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+}
+.themeSidebarArea .zs-highlight-box .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+}
+.themeSidebarArea .zs-highlight-box .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+}
+.themeSidebarArea .zs-highlight-box .newsletter-layout-3 .newsletter-form {
+    width: 140px;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-input-field {
+    width:150px;
+    background:#f0f0f0;
+    color:#505943;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-layout-3 .newsletter-form {
+    width: 150px;
+}
+.themeSidebarArea .zs-tabs-accordion-content .newsletter-desc {
+    color:#505943;    
+}
+.themeSidebarArea .zs-highlight-box form li input[type=submit], .themeSidebarArea .zs-highlight-box form li input[type=reset] {
+    padding: 7px 15px;
+    margin-right: 5px;
+}
+.themeSidebarArea .zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.themeSidebarArea .zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+/*-----------------------------------  TEXT HIGHLIGHT CSS -----------------------------------------------*/
+.themeSidebarArea .zs-text-light-color {
+color:#C9B68F
+}
+.themeSidebarArea .zs-text-highlight-color {
+color:#ffa200
+}
+.themeSidebarArea .zs-highlight-box .zs-text-light-color {
+color:#C9B68F
+}
+.themeSidebarArea .zs-highlight-box .zs-text-highlight-color {
+color:#ffa200
+}
+/*--------------------- THEME SIDEBAR TABS ACCORDION AREA CSS ---------------------*/
+.themeSidebarArea .zs-tabs ul, .themeSidebarArea .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.themeSidebarArea .zs-tabs li, .themeSidebarArea .zs-highlight-box .zs-tabs ul li {
+    padding: 0;
+    margin: 0 5px 0 0;
+    float: left;
+}
+.themeSidebarArea .zs-tabs ul li div, .themeSidebarArea .zs-highlight-box .zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color: #505943;
+    line-height: 3;
+    border: 1px solid #C6D2BA;
+}
+.themeSidebarArea .zs-tabs ul li.selected div, .themeSidebarArea .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    color: #436e00;
+    border-color: #D8D8D8;
+    border-bottom: 1px solid #ffffff;
+}
+.themeSidebarArea .zs-tabs-accordion-content, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 10px;
+    clear: both;
+    color: #505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeSidebarArea .zs-accordion, .themeSidebarArea .zs-highlight-box .zs-accordion {
+    color: #505943;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.themeSidebarArea .zs-accordion.selected, .themeSidebarArea .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color: #D8D8D8;
+}
+/*---------------------------------- THEME SIDEBAR AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content {
+    padding: 10px;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h1, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h2, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h3, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h4, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h5, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content a, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+    width: 85px;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 100px;
+}
+.themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li input[type="submit"], .themeSidebarArea .zs-highlight-box .zs-tabs-accordion-content form li input[type="reset"] {
+    padding: 7px 5px;
+}
+/* ------------------------------------------------------------- THEME RIGHT AREA CSS -----------------------------------------------------------------------------*/
+.themeRightArea {
+    width: 700px;
+    margin-left: 45px;
+}
+/* ------------------------------------------------------------- THEME NAVIGATION AREA CSS -----------------------------------------------------------------------------*/
+.themeNavigationContainer {
+    margin-bottom: 30px;
+ background-color:#ffffff;
+ background-image:none;
+ background-repeat:repeat-x;
+ background-position:left top;
+    height: 50px;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+    -o-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.30);
+}
+#navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#navigation li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#navigation li a {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ color:#585858;
+ font-size:14px;
+    float: left;
+    display: block;
+    line-height: 3.6;
+    padding: 0 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#navigation li:hover, #navigation li.selected, #navigation li.active {
+ background-color:transparent;
+ background-image:none;
+ background-repeat:repeat-x;
+ background-position:left top;
+}
+#navigation li:hover a, #navigation li.selected a, #navigation li.active a {
+ color:#436e00;
+}
+#navigation li a span {
+    float: left;
+}
+#navigation li.navArrow a em, #navigation li:hover.navArrow a em, #navigation li.active.navArrow a em, #navigation li.selected.navArrow a em {
+    background: transparent url(images/navArrow.png) no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 8px;
+    width: 7px;
+    margin: 25px 0 0 8px;
+}
+#navigation li:hover.navArrow a em, #navigation li.active.navArrow a em, #navigation li.selected.navArrow a em {
+    background: url(images/NavArrowHover.png) no-repeat scroll 0 0;
+}
+/* ------------------------------------------------------------- SUBMENU AREA CSS --------------------------------------------------------------------------*/
+.submenu {
+    width: 180px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+ background-color:#f5f5f5;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+    -moz-box-shadow: -3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    -webkit-box-shadow: -3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    -o-box-shadow: -3px 3px 0 0 rgba(54, 91, 30, 0.50);
+    box-shadow: -3px 3px 0 0 rgba(54, 91, 30, 0.50);
+ border-width:0px;
+border-style:solid;
+border-color:transparent;
+border-radius:0px;
+-moz-border-radius:0px;
+-webkit-border-radius:0px;
+-o-border-radius:0px;
+    -webkit-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -moz-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -o-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -ms-transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    transition: height 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+.submenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+.submenu li {
+    display: block;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.submenu li a {
+ color:#585858;
+ font-size:14px;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    line-height: 1.6;
+    float: left;
+    cursor: pointer;
+}
+.submenu li a:hover {
+ color:#436e00;
+ background-color:#ffffff;
+background-image:none;
+background-position:top left;
+background-repeat:repeat;
+}
+.submenu li a span {
+    width: 75%;
+    float: left;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+.submenu li a em {
+    width: 10px;
+    float: left;
+    height: 16px;
+}
+.submenu li.navArrow a em, .submenu li:hover.navArrow a em {
+    background: url(images/subNavArrow.png) left top no-repeat;
+    float: left;
+    height: 16px;
+    width: 10px;
+    margin: 10px 0 0 13px;
+}
+.submenu li:hover.navArrow a em {
+    background: url(images/subNavArrowHover.png) left top no-repeat;
+}
+/* ------------------------------------------------------------- THEME BANNER  AREA CSS --------------------------------------------------------------------------*/
+.themeBannerArea {
+    background: url(images/bannerbg.png) left top repeat;
+    padding: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.themeBannerArea img {
+    display: block;
+}
+/* ------------------------------------------------------------- THEME BREADCRUMB AREA CSS --------------------------------------------------------------------------*/
+.themeBreadcrumb {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.themeBreadcrumb span {
+    padding: 0 10px;
+}
+.themeBreadcrumb p {
+    word-wrap: break-word;
+}
+/* ------------------------------------------------------------- THEME CONTENT AREA CSS --------------------------------------------------------------------------*/
+.themeContentArea {
+ background-color:transparent;
+ background-image:url(images/contentbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -moz-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -o-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ -webkit-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0px 0px transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+.themeContentAreaInner {
+    min-height: 400px;
+    height: auto !important;
+    height: 400px;
+}
+/* ------------------------------------------------------------- THEME FOOTER AREA CSS --------------------------------------------------------------------------*/
+.themeFooterArea {
+ background-color:transparent;
+ background-image:url(images/contentbg.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ background-attachment:scroll;
+ background-size:auto;
+ box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -moz-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -o-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ -webkit-box-shadow: 0px 0px 0px 0px transparent, 0px 0px 0 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+    padding: 25px 40px;
+    margin-bottom: 50px;
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+}
+.themeFooterArea h1 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:28px;
+ color:#436e00;
+}
+.themeFooterArea h2 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:26px;
+ color:#436e00;
+}
+.themeFooterArea h3 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:24px;
+ color:#436e00;
+}
+.themeFooterArea h4 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:22px;
+ color:#436e00;
+}
+.themeFooterArea h5 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:20px;
+ color:#436e00;
+}
+.themeFooterArea h6 {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:18px;
+ color:#436e00;
+}
+.themeFooterArea a {
+ color:#72a837;
+ text-decoration:none;
+}
+.themeFooterArea a:hover {
+ text-decoration:none;
+ color:#72a837;
+}
+.themeFooterArea form li span input[type=text], .themeFooterArea form li span textarea, .themeFooterArea form li span select {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+}
+.themeFooterArea form li input[type=submit], .themeFooterArea form li input[type=reset] {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+}
+.themeFooterArea th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.themeFooterArea td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.themeFooterArea .zs-highlight-box {
+ background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#505943;
+}
+.themeFooterArea .zs-highlight-box h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+.themeFooterArea .zs-highlight-box a {
+ text-decoration:none;
+color:#72a837;
+}
+.themeFooterArea .zs-highlight-box a:hover {
+text-decoration:none;
+color:#72a837;
+}
+.themeFooterArea .zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.themeFooterArea .zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+/*-----------------------------------  TEXT HIGHLIGHT CSS -----------------------------------------------*/
+.themeFooterArea .zs-text-light-color {
+color:#9F9F9F
+}
+.themeFooterArea .zs-text-highlight-color {
+color:#436E00
+}
+.themeFooterArea .zs-highlight-box .zs-text-light-color {
+color:#9F9F9F
+}
+.themeFooterArea .zs-highlight-box .zs-text-highlight-color {
+color:#436E00
+}
+/*--------------------- THEME FOOTER TABS ACCORDION AREA CSS ---------------------*/
+.themeFooterArea .zs-tabs ul, .themeFooterArea .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    margin: 0;
+}
+.themeFooterArea .zs-tabs li, .themeFooterArea .zs-highlight-box .zs-tabs ul li {
+    padding: 0;
+    margin: 0 5px 0 0;
+    float: left;
+}
+.themeFooterArea .zs-tabs ul li div, .themeFooterArea .zs-highlight-box .zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color: #505943;
+    line-height: 3;
+    border: 1px solid #C6D2BA;
+}
+.themeFooterArea .zs-tabs ul li.selected div, .themeFooterArea .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    color: #436e00;
+    border-color: #D8D8D8;
+    border-bottom: 1px solid #ffffff;
+}
+.themeFooterArea .zs-tabs-accordion-content, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 15px;
+    clear: both;
+    color: #505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.themeFooterArea .zs-accordion, .themeFooterArea .zs-highlight-box .zs-accordion {
+    color: #505943;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.themeFooterArea .zs-accordion.selected, .themeFooterArea .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color: #D8D8D8;
+}
+/*---------------------------------- THEME FOOTER AREA HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h1, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h2, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h3, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h4, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h5, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+    width: 300px;
+}
+.themeFooterArea .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 313px;
+}
+/* -------------------------------- FORM AREA CSS -------------------------------- */
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+form li {
+    overflow: hidden;
+    padding: 5px 0;
+    margin: 0;
+}
+form ul li label, form ul li div {
+    width: auto;
+    float: none;
+}
+form ul li div {
+    padding: 5px 0;
+}
+form li span input, form li span label {
+    float: none;
+    width: auto;
+    padding: 0px 4px 0;
+    margin: 7px 2px 0;
+}
+form li div span {
+    display: block
+}
+form li span input[type=text], form li span textarea, form li span select {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ color:#585858;
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    width: 325px;
+    padding: 10px 5px;
+    margin: 0px;
+    resize: none;
+}
+form li span select {
+    width: 335px;
+}
+form li span textarea {
+    height: 100px;
+    overflow: auto;
+}
+form li span button {
+    margin-left: 5px;
+    cursor: pointer;
+    width: 20px;
+}
+form .dateinvoker {
+    background: url(images/datePickerIcn.png) 0 0 no-repeat;
+    height: 18px;
+    width: 17px;
+    border: none;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-left: 5px;
+    padding: 0px;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+form li input[type=submit], form li input[type=reset], button {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    background: #55960c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#71c70b), to(#55960c));
+    background: -moz-linear-gradient(top, #71c70b, #55960c);
+    background: -o-linear-gradient(top, #71c70b, #55960c);
+    box-shadow: 0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -webkit-box-shadow: 0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -moz-box-shadow: 0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    -o-box-shadow: 0 1px 0px #ffffff, 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    border: 1px solid #5aac01;
+    padding: 10px 30px;
+    margin-right: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.17);
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.17);
+    -moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.17);
+    -o-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.17);
+}
+form li input[type=reset] {
+    background: #d6d6d6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#d6d6d6));
+    background: -moz-linear-gradient(top, #f0f0f0, #d6d6d6);
+    background: -o-linear-gradient(top, #f0f0f0, #d6d6d6);
+    border: 1px solid #c2c2c2;
+    color: #505050;
+}
+/*-----------------------------------------------------------     THEME SEARCH BOX AREA CSS ---------------------------------------------------------------------*/
+.themeSearchContainer {
+    margin: 5px 0;
+}
+.themeSearchBox {
+    width: 230px;
+    height: 28px;
+    position: relative;
+    background: #3c6603;
+    background: rgba(0,0,0,0.35);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08) inset, 0 1px 1px rgba(255, 255, 255, 0.36);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08) inset, 0 1px 1px rgba(255, 255, 255, 0.36);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08) inset, 0 1px 1px rgba(255, 255, 255, 0.36);
+    -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08) inset, 0 1px 1px rgba(255, 255, 255, 0.36);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-bottom: 3px;
+    float: right;
+}
+.themeSearchBox input[type=text] {
+    background: transparent;
+    width: 190px;
+    height: 28px;
+    border: 0;
+    outline: none;
+    line-height: 26px;
+    font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #9aac83;
+    padding: 0 10px
+}
+.themeSearchBox input[type=submit] {
+    background: url(images/searchicon.png) center center no-repeat;
+    width: 32px;
+    height: 28px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0 none;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------- THEME SLIDESHOW CSS ---------------------------------------------------------------------------*/
+.zs-slideshow-right-arrow {
+    background: url(images/zs-slideshow-right-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 34px;
+    left: auto;
+    right: 10px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 34px;
+    z-index: 150;
+}
+.zs-slideshow-left-arrow {
+    background: url(images/zs-slideshow-left-arrow.png) left top no-repeat;
+    cursor: pointer;
+    height: 34px;
+    right: 45px;
+    left: auto;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    transition: opacity 500ms ease 0s;
+    -webkit-transition: opacity 500ms ease 0s;
+    -moz-transition: opacity 500ms ease 0s;
+    -o-transition: opacity 500ms ease 0s;
+    width: 34px;
+    z-index: 150;
+}
+.themeSlideshowOuterContainer {
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 500ms ease 0s;
+    z-index: 150;
+    height: 40px;
+}
+.themeSlideshowInnerContainer {
+    background: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 5px 0 0 10px;
+    float: left;
+}
+.zs-slideshow-control-active {
+    background: url(images/zs-slideshow-control-active.png) no-repeat left top;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    margin: 0 8px 0 0;
+    width: 12px;
+}
+.zs-slideshow-control {
+    background: url(images/zs-slideshow-control.png) no-repeat left top;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    margin: 0 8px 0 0;
+    width: 12px;
+}
+/*-----------------------------------      THEME HIGHLIGHT BOX AREA CSS    -----------------------------------------------*/
+.zs-highlight-box {
+ background-color: #efffe0;
+ background-image: url(images/highlightboxbg.png);
+ background-image: url(images/highlightboxbg.png), -moz-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -webkit-linear-gradient(bottom, transparent, transparent);
+ background-image: url(images/highlightboxbg.png), -o-linear-gradient(bottom, transparent, transparent);
+ background-position: top left;
+ background-repeat: repeat;
+ box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -moz-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -webkit-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ -o-box-shadow: 3px 3px 0 0px rgba(27, 70, 0, 0.75), 0px 0px 0px 0 transparent inset;
+ border-width: 0;
+ border-style:none;
+ border-color:transparent;
+ border-radius: 0;
+ -moz-border-radius:0;
+ -webkit-border-radius:0;
+ -o-border-radius:0;
+ padding: 10px;
+ margin: 5px;
+    min-height: 200px;
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:16px;
+ color:#505943;
+}
+.zs-highlight-box h1 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:28px;
+color:#436e00;
+}
+.zs-highlight-box h2 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:26px;
+color:#436e00;
+}
+.zs-highlight-box h3 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:24px;
+color:#436e00;
+}
+.zs-highlight-box h4 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+color:#436e00;
+}
+.zs-highlight-box h5 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#436e00;
+}
+.zs-highlight-box h6 {
+font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#436e00;
+}
+.zs-highlight-box a {
+ text-decoration:none;
+color:#72a837;
+}
+.zs-highlight-box a:hover {
+text-decoration:none;
+color:#72a837;
+}
+.zs-highlight-box hr {
+    border-top-color: #B9CBB3;
+}
+.zs-highlight-box th {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#D1DECD;
+ border-width:1px;
+ border-style:solid;
+ border-color:#B9CBB3;
+ color:#8f8f8f;
+ padding:12px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+.zs-highlight-box td {
+ font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+ font-size:14px;
+ background:#ffffff;
+ border-width:1px;
+ border-style:solid;
+ border-color:#D4EACD;
+ color:#8f8f8f;
+ padding:10px;
+}
+.zs-highlight-box h3.newsletter-heading {
+    color:#436E00;
+}
+.zs-highlight-box .newsletter-desc {
+    color:#505943;
+}
+/*-----------------------------------  TEXT HIGHLIGHT CSS -----------------------------------------------*/
+.zs-text-light-color {
+color:#9F9F9F
+}
+.zs-text-highlight-color {
+color:#436E00
+}
+.zs-highlight-box .zs-text-light-color {
+color:#9F9F9F
+}
+.zs-highlight-box .zs-text-highlight-color {
+color:#436E00
+}
+/*------------------------ THEME TABS ACCORDION AREA CSS START ------------------------------*/
+.zs-tabs ul, .zs-highlight-box .zs-tabs ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    margin: 0;
+}
+.zs-tabs li, .zs-highlight-box .zs-tabs ul li {
+    padding: 0;
+    margin: 0 5px 0 0;
+    float: left;
+}
+.zs-tabs ul li div, .zs-highlight-box .zs-tabs ul li div {
+    float: left;
+    position: relative;
+    margin: 0 0 -1px;
+    display: block;
+    cursor: pointer;
+    background: #EFFFE0;
+    padding: 0 25px;
+    overflow: hidden;
+    color: #505943;
+    line-height: 3;
+    border: 1px solid #C6D2BA;
+}
+.zs-tabs ul li.selected div, .zs-highlight-box .zs-tabs ul li.selected div {
+    background: #ffffff;
+    color: #436e00;
+    border-color: #D8D8D8;
+    border-bottom: 1px solid #ffffff;
+}
+.zs-tabs-accordion-content, .zs-highlight-box .zs-tabs-accordion-content {
+    background: #ffffff;
+    border: 1px solid #D8D8D8;
+    border-top: 0px;
+    padding: 15px;
+    clear: both;
+    color: #505943;
+    margin-bottom: 5px;
+    min-height: 70px;
+    height: auto !important;
+    height: 70px;
+}
+.zs-accordion, .zs-highlight-box .zs-accordion {
+    color: #505943;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+    background: #EFFFE0;
+    position: relative;
+    border: 1px solid #C6D2BA;
+    margin-bottom: 5px;
+}
+.zs-accordion.selected, .zs-highlight-box .zs-accordion.selected {
+    margin-bottom: 0px;
+    color: #436e00;
+    background: #ffffff;
+    border-color: #D8D8D8;
+}
+/*---------------------------------- THEME HIGHLIGHT BOX TABS ACCORDION AREA CSS START ------------------------------------*/
+.zs-highlight-box .zs-tabs-accordion-content h1, .zs-highlight-box .zs-tabs-accordion-content h2, .zs-highlight-box .zs-tabs-accordion-content h3, .zs-highlight-box .zs-tabs-accordion-content h4, .zs-highlight-box .zs-tabs-accordion-content h5, .zs-highlight-box .zs-tabs-accordion-content h6 {
+    color: #436e00;
+}
+.zs-highlight-box .zs-tabs-accordion-content a, .zs-highlight-box .zs-tabs-accordion-content a:hover {
+    color: #72a837;
+}
+.zs-highlight-box .zs-tabs-accordion-content hr {
+    border-top: 1px solid #d8dce2;
+}
+.zs-highlight-box .zs-tabs-accordion-content th {
+    background: #d1decd;
+    border-color: #b9cbb3;
+    color: #436e00;
+}
+.zs-highlight-box .zs-tabs-accordion-content td {
+    background: #ffffff;
+    border-color: #d4eacd;
+    color: #8f8f8f;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span input[type="text"], .zs-highlight-box .zs-tabs-accordion-content form li span textarea, .zs-highlight-box .zs-tabs-accordion-content form li span select {
+    background: #ffffff;
+    border: 1px solid #ceddba;
+    color: #585858;
+    width: 300px;
+}
+.zs-highlight-box .zs-tabs-accordion-content form li span select {
+    width: 313px;
+}
+/***************************** START SOCIAL ICONS SPRITE *****************************/
+.themeSocialIconArea {
+    padding: 5px 0;
+}
+.themeSocialIconContainer {
+    text-align: right;
+}
+.zs-socialicon-email, .zs-socialicon-facebook, .zs-socialicon-flickr, .zs-socialicon-googleplus, .zs-socialicon-linkedin, .zs-socialicon-pinterest, .zs-socialicon-rss, .zs-socialicon-twitter, .zs-socialicon-youtube, .zs-socialicon-medium, .zs-socialicon-instagram {
+    background: url('images/zs-socialicon-sprite.png') no-repeat top left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.zs-socialicon-email {
+    background-position: 0 -0px;
+}
+.zs-socialicon-facebook {
+    background-position: 0 -30px;
+}
+.zs-socialicon-flickr {
+    background-position: 0 -60px;
+}
+.zs-socialicon-googleplus {
+    background-position: 0 -90px;
+}
+.zs-socialicon-linkedin {
+    background-position: 0 -120px;
+}
+.zs-socialicon-pinterest {
+    background-position: 0 -150px;
+}
+.zs-socialicon-rss {
+    background-position: 0 -180px;
+}
+.zs-socialicon-twitter {
+    background-position: 0 -210px;
+}
+.zs-socialicon-youtube {
+    background-position: 0 -240px;
+}
+.zs-socialicon-medium {
+    background-position: 0 -270px;
+}
+.zs-socialicon-instagram {
+    background-position: 0 -300px;
+}
+/*****************************   END: SOCIAL ICONS SPRITE *****************************/
+
+.newsletter-container {
+background: transparent;
+    padding: 10px
+}
+h3.newsletter-heading {
+    margin-bottom: 10px;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 24px;
+color: #436E00;
+}
+.newsletter-desc {
+    margin-bottom: 25px;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+color: #505943;
+}
+.newsletter-input-field {
+background: #ffffff;
+border-width: 1px;
+border-color: #CEDDBA;
+color:#505943;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align:top;
+}
+button.newsletter-button {
+background: #71C70B;
+border-width: 1px;
+border-color: #5AAC01;
+color:#ffffff;
+font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+border-radius:0px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+-o-border-radius:0px;
+    border-style: solid;
+    cursor: pointer;
+    padding: 9px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+.newsletter-layout-1 .newsletter-form, .newsletter-layout-2 .newsletter-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter-layout-3 .newsletter-form {
+    width: 200px;
+    margin: 0 auto;
+    text-align: right;
+}
+.newsletter-layout-3 button {
+    text-align: right;
+}
+.newsletter-form input[type="text"]::-moz-placeholder {
+    color:#505943;
+  font-size:90%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]::-webkit-input-placeholder{
+    color:#505943;
+  font-size:85%;
+  line-height:normal;
+}
+.newsletter-form  input[type="text"]:-ms-input-placeholder {
+    color:#505943;
+  font-size:90%;
+  line-height:normal;
+}
+/*----------------------------------- MEMBERSHIP PORTAL AREA CSS  -----------------------------------------------*/
+.mp-container {
+    height: 35px;
+    background:rgba(0, 0, 0, 0.25);
+    border-bottom:1px solid rgba(255, 255, 255, 0.25);
+}
+.member-signin {
+    float: right;
+}
+.member-signin > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.member-signin li {
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 20px;
+    padding: 0;
+    position:relative;
+}
+.member-signin li a {
+    font-family:'Arvo', Georgia, "Times New Roman", Times, serif;
+    font-size:14px;
+    text-decoration:none;
+    color:#FFA200;
+    display:block;
+}
+.member-signin li a:hover {
+    text-decoration:none;
+    color:#FFA200;
+}
+.member-signin li:first-child {
+    margin-left: 0;
+}
+.member-signin li:last-child:before {
+    color:#FFA200;
+    content: "|";
+    position: absolute;
+    top: 0;
+    left:-13px;
+} 
