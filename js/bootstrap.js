@@ -445,7 +445,7 @@ onloadFunction = function() {
         carousel = getElementsByName_iefix('div','carousel');//No I18N
     }
     if(isSlideBanner || carousel){
-        commonLoadScript(assetsUrl+"/js/animation.js");//NO I18N
+        commonLoadScript(assetsUrl+"./js/animation.js");//NO I18N
         if(isSlideBanner){
             var func = function(){
                 if(typeof(ImageRotator) != "undefined"){
